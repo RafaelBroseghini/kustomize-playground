@@ -5,6 +5,7 @@ commonLabels:
 commonAnnotations:
   note: Hello, I am staging!
 resources:
-- ../../base
+  - ../../base
 patchesStrategicMerge:
-- map.yaml
+  - map.yaml
+  - deployment.yaml
